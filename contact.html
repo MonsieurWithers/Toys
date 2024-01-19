@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container-header">
+			<img src="https://media.discordapp.net/attachments/800386088036073512/1156667570838044672/way_logo_1-5_nobc.png?ex=6515ce1e&is=65147c9e&hm=e5d3847b1c7ac298d362cc86d3d3b82641c412b6bd71447c7ebe177234c974c4&=&width=1440&height=451" alt="Logo Wayward">
+			<nav>
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="shop.html">Boutique</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+<main>
+	<div id="truc" class="container">
+		<div class="container-body">
+			<h1>Contactez-nous !</h1>
+			<p>Des questions ? Des suggestions ? Besoin d'une mise à jour de votre commande ?<p> 
+			<p>Contactez-nous ! Remplissez le formulaire ci-dessous pour nous le faire savoir, ou envoyez-nous un e-mail à electronicswayward@gmail.com. Notre équipe formidable de représentants du service client est toujours disponible pour vous aider !</p>
+			<form action="process.php" method="post">
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+				<br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<br>
+				<button type="submit">Envoyer</button>
+			</form>
+			<script>
+				const form = document.querySelector('form');
+				form.addEventListener('submit', function(event) {
+					event.preventDefault();
+					const message = document.querySelector('#message').value;
+					if (message === 'test') {
+						window.location.href = 'terminal.html';
+					} else {
+						;
+					}
+				});
+			</script>
+		</div>
+	</div>
+</main>
+
+  	<footer>
+    	<div class="container-footer">
+      		<p>&copy; Copyright 1998 Wayward Electronics®. All rights reserved.</p>
+    	</div>
+  	</footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/1079858420921938021/1098240978508324945/59942.jpg");
+    background-attachment: fixed;
+    font-family: monospace, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-body {
+    padding: 20px;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.jouet{
+    height: 400px;
+}
+
+#bloc{
+    padding-top: 50px;
+}
+
+.gauche{
+    float: left; 
+    width: 50%;
+    height: 50%;
+}
+
+/*positionnement du header*/
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+    position: fixed;
+    top: 0;
+    width: 1980px;
+}
+
+header img {
+    height: 80px;
+    float: left;
+    margin: 10px 20px;
+}
+
+/*positionnement de la barre de navigation*/
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav li {
+    float: left;
+    margin-left: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+main {
+    margin-top: 140px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+#truc {
+    margin-top: 120px;
+    background-color: white;
+}
+
+.factory2 {
+	position: relative;
+    left: -10px;
+	height: auto;
+}

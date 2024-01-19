@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>terminal Interface</title>
+    <link rel="stylesheet" type="text/css" href="styleterminal.css">
+</head>
+<body>
+    <div id="terminalContainer">
+        <div class="terminal">
+            <div class="scanline"></div>
+            <div class="text" id="terminalOutput">
+				<p>------------------------------------------------------------</p>
+				<p>WAYWARD ELECTRONICS®</p>
+                <p>TERMINAL OS v0.65</p>
+                <p>------------------------------------------------------------</p>
+				<p>Press [ESC] to exit.</p>
+                <p>Type "HELP" to get help using the terminal.</p>
+            </div>
+            <input type="text" id="commandInput" onkeydown="if(event.keyCode == 13) processCommand();" autofocus>
+        </div>
+    </div>
+
+    <script src="scriptterminal.js"></script>
+</body>
+</html>
