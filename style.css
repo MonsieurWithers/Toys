@@ -5,7 +5,15 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    position: relative;
 }
+
+body::after {
+    content: '';
+    display: block;
+    height: 150px; /* Set same as footer's height */
+  }
+  
 
 .container {
     max-width: 1200px;
@@ -26,11 +34,11 @@ body {
 .container-footer {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 20px;	
 }
 
 .jouet{
-    height: 400px;
+    height: 800px;
 }
 
 #bloc{
@@ -66,6 +74,10 @@ nav ul {
     margin: 0;
     padding: 0;
     float: right;
+}
+
+ul {
+    list-style-type: none;
 }
 
 nav li {
