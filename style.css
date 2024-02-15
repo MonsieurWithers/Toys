@@ -27,6 +27,9 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .jouet{
