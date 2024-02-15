@@ -68,6 +68,10 @@ nav ul {
     float: right;
 }
 
+ul {
+    list-style-type: none;
+}
+
 nav li {
     float: left;
     margin-left: 20px;
